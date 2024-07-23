@@ -1,0 +1,70 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: purple;
+}
+
+.container {
+    text-align: center;
+    width: 500px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: left;
+}
+
+.input {
+    margin-bottom: 20px;
+}
+
+.input input{
+    width: 80%;
+    padding: 10px;
+    margin-right: 10px;
+    border-bottom: 5px solid white;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    background: transparent;
+}
+
+.button {
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+    padding: 5px;
+    border-radius: 50%;
+    font-size: 20px;
+}
+
+.task {
+    display: flex;
+    align-items: flex-start;
+    background: #533;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.box input {
+    margin-right: 10px;
+    border-radius: 50%;
+}
+.box img {
+    width: 20px;
+    cursor: pointer;
+    margin-left: 370px;
+}
+

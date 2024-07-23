@@ -56,16 +56,16 @@ h1 {
 .box {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     width: 100%;
 }
 
 .box input {
-    margin-right: 10px;
+    margin-right: -350px;
     border-radius: 50%;
 }
 .box img {
     width: 20px;
     cursor: pointer;
-    margin-left: 370px;
 }
 

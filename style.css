@@ -69,3 +69,6 @@ h1 {
     cursor: pointer;
 }
 
+.checkmark1 {
+    text-decoration-line: line-through;
+}

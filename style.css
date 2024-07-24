@@ -47,7 +47,7 @@ h1 {
 .task {
     display: flex;
     align-items: flex-start;
-    background: #533;
+    background: #080842;
     padding: 10px;
     border-radius: 5px;
     margin-bottom: 10px;
@@ -59,11 +59,18 @@ h1 {
     justify-content: space-between;
     width: 100%;
 }
-
-.box input {
-    margin-right: -350px;
+.box .cerc{
+    width: 20px;
+    height: 20px;
     border-radius: 50%;
+    background-color: black;
+    border: 1px solid white;
 }
+
+.box .checkmark{
+    margin-left: -350px;
+}
+
 .box img {
     width: 20px;
     cursor: pointer;
